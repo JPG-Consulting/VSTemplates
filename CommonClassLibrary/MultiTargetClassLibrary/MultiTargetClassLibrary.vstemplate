@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Biblioteca de clases (Multi-Framework)</Name>
+    <Description>Proyecto para crear una biblioteca de clases de C# (.dll)</Description>
+    <Icon>MultiTargetClassLibrary.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>c8470af1-0b13-423e-9531-1a02f598c56d</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ClassLibrary</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Resources\StringResources.resx">StringResources.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Resources\StringResources.es.resx">StringResources.es.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Resources\StringResources.Designer.cs">StringResources.Designer.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
