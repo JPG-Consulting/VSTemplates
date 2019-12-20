@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace $safeprojectname$
+﻿namespace $safeprojectname$.Resources
 {
+    using System;
+
     /// <summary>
     ///   Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
     /// </summary>

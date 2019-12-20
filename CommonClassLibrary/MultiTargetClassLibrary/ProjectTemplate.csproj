@@ -110,8 +110,12 @@
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="Class1.cs" />
-
 		<Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\StringResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResources.resx</DependentUpon>
+    </Compile>
 	</ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\StringResources.es.resx" />
